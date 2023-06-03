@@ -72,6 +72,20 @@ public class BattleSystem : MonoBehaviour
 
     }
 
+    IEnumerator PlayerHeal()
+    {
+        state = BattleState.SEQUENCE;
+        playerUnit.Heal(5);
+
+        playerHUD.SetHP(playerUnit.currentHP);
+        dialogueText.text = playerUnit.unitName + " heals 5 health!";
+
+        yield return new WaitForSeconds(3f);
+
+        state = BattleState.ENEMYTURN;
+        StartCoroutine(EnemyTurn());
+    }
+
     void EndBattle()
     {
         if (state == BattleState.WON)
@@ -124,6 +138,16 @@ public class BattleSystem : MonoBehaviour
             return;
         }
         StartCoroutine(PlayerAttack());
+
+    }
+
+    public void OnHealButton()
+    {
+        if (state != BattleState.PLAYERTURN)
+        {
+            return;
+        }
+        StartCoroutine(PlayerHeal());
 
     }
 }
