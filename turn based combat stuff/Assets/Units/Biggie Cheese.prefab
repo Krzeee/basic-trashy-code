@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7371797812359249578
+--- !u!1 &8421385954792331655
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7371797812359249581}
-  - component: {fileID: 7371797812359249580}
-  m_Layer: 0
-  m_Name: 3194-steamhappy
+  - component: {fileID: 6931094641151725629}
+  - component: {fileID: 325724401955263976}
+  m_Layer: 5
+  m_Name: biggiecheese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7371797812359249581
+--- !u!4 &6931094641151725629
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7371797812359249578}
+  m_GameObject: {fileID: 8421385954792331655}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.7, y: 60.4, z: 0}
-  m_LocalScale: {x: 60, y: 60, z: 60}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 7, y: 76, z: 0}
+  m_LocalScale: {x: 44.74107, y: 44.74107, z: 44.74107}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7371797814002821977}
+  m_Father: {fileID: 8449128626861327311}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7371797812359249580
+--- !u!212 &325724401955263976
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7371797812359249578}
+  m_GameObject: {fileID: 8421385954792331655}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -73,18 +73,18 @@ SpriteRenderer:
   m_SortingLayerID: 2074371399
   m_SortingLayer: 5
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: d95e898c2ad9f524ebb844d7f7c306f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7360084158a7bb41a6b218db09a3dd2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 3.6, y: 3.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 1
---- !u!1 &7371797814002821958
+  m_SpriteSortPoint: 0
+--- !u!1 &8492794152044033001
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,45 +92,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7371797814002821977}
-  - component: {fileID: 1459327181905920402}
-  m_Layer: 0
-  m_Name: Player
+  - component: {fileID: 8449128626861327311}
+  - component: {fileID: 1681815752003141052}
+  m_Layer: 5
+  m_Name: Biggie Cheese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7371797814002821977
+--- !u!4 &8449128626861327311
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7371797814002821958}
+  m_GameObject: {fileID: 8492794152044033001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -158, y: -104.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7371797812359249581}
+  - {fileID: 6931094641151725629}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1459327181905920402
+--- !u!114 &1681815752003141052
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7371797814002821958}
+  m_GameObject: {fileID: 8492794152044033001}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b94f2b5d29ece544eada6d697d57e26e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: YIPEEE
-  unitLevel: 12
-  damage: 4
-  maxHP: 30
-  currentHP: 25
+  unitName: Biggie Cheese
+  unitLevel: 17
+  damage: 3
+  maxHP: 40
+  currentHP: 40
